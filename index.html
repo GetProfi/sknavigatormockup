@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Sep 12 2018 11:27:28 GMT+0000 (UTC)  -->
+<!--  Last Published: Thu Sep 13 2018 06:33:14 GMT+0000 (UTC)  -->
 <html data-wf-page="5b929b4beae1f861a2ff5f1e" data-wf-site="5b929b4beae1f8853dff5f1d">
 <head>
   <meta charset="utf-8">
@@ -55,7 +55,7 @@
       <div class="search-block">
         <div class="search-form">
           <div class="search-form-block w-form">
-            <form id="email-form" name="email-form" data-name="Email Form"><input type="text" class="search-field w-input" maxlength="256" name="s" data-name="s" placeholder="Поиск технологии или компании" id="s" required=""></form>
+            <form id="email-form" name="email-form" data-name="Email Form" class="search-form-div"><input type="text" class="search-field w-input" maxlength="256" name="s" data-name="s" placeholder="Поиск технологии или компании" id="s" required=""><a href="#" class="search-clear hide w-inline-block"></a></form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
             </div>
@@ -67,32 +67,68 @@
         <div class="search-block-row">
           <div class="search-block-column">
             <div data-delay="0" class="filter-dd w-dropdown">
-              <div class="filter-dd-toggle active w-dropdown-toggle">
-                <div class="filter-dd-icon active w-icon-dropdown-toggle"></div>
+              <div class="filter-dd-toggle w-dropdown-toggle">
+                <div class="filter-dd-icon w-icon-dropdown-toggle"></div>
                 <div class="filter-dd-row">
-                  <div class="filter-icon-div"><img src="images/atom.svg" class="filter-icon"></div>
+                  <div class="filter-icon-div"><img src="images/atom_blue.svg" class="filter-icon"></div>
                   <div class="filter-dd-toggle-text">Технологии</div>
                 </div>
               </div>
-              <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-            </div>
-            <div data-delay="0" class="filter-dd w-dropdown">
-              <div class="filter-dd-toggle active w-dropdown-toggle">
-                <div class="filter-dd-icon active w-icon-dropdown-toggle"></div>
-                <div class="filter-dd-row">
-                  <div class="filter-dd-toggle-text">Инвестиции 2</div>
+              <nav class="filter-company-dd-list tech w-dropdown-list">
+                <div class="filter-dd-bg main-filter tech">
+                  <div class="filter-dd-heading">Технологии</div>
+                  <div class="company-card-tags-row-2">
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-3.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Искусственный интеллект</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-4.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Блокчейн</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-5.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Аналитика и большие данные</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-3.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Потребительская электроника</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-5.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Коммуникация и медиа</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-6.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Аналитика и большие данные</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-7.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Одежда и мода</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-8.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Чистые технологи</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-9.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Дополненная реальность</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-10.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Биотехнологии</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-11.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Игры</div>
+                    </a>
+                    <a href="#" class="search-tech-tag w-inline-block">
+                      <div class="company-tag-icon-div"><img src="images/company-tag-icon-12.svg" class="company-tag-icon"></div>
+                      <div class="company-tag-text">Кибербезопасность</div>
+                    </a><a href="#" class="search-tech-tag more w-inline-block"><img src="images/More.svg"></a></div>
+                  <div class="filter-buttons-row"><a href="#" class="button w-button">Применить</a><a href="#" class="clear-filter-link">Очистить</a></div>
                 </div>
-              </div>
-              <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-            </div>
-            <div data-delay="0" class="filter-dd w-dropdown">
-              <div class="filter-dd-toggle w-dropdown-toggle">
-                <div data-w-id="9bb0b85f-c748-2ba6-4b40-390678d9f0a6" class="filter-dd-icon w-icon-dropdown-toggle"></div>
-                <div class="filter-dd-row">
-                  <div class="filter-dd-toggle-text">Раунд</div>
-                </div>
-              </div>
-              <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
+              </nav>
             </div>
             <div data-delay="0" class="filter-dd w-dropdown">
               <div class="filter-dd-toggle w-dropdown-toggle">
@@ -101,16 +137,105 @@
                   <div class="filter-dd-toggle-text">Стадия проекта</div>
                 </div>
               </div>
-              <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
+              <nav class="filter-company-dd-list w-dropdown-list">
+                <div class="filter-dd-bg main-filter">
+                  <div class="filter-dd-heading">Стадия проекта</div>
+                  <div class="filter-options">
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox checked"></div>
+                      <div class="checkbox-text">Концепция</div>
+                    </a>
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Прототип</div>
+                    </a>
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Опытно-промышленный образец</div>
+                    </a>
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Готовый продукт</div>
+                    </a>
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Масштабирование</div>
+                    </a>
+                  </div>
+                  <div class="filter-buttons-row"><a href="#" class="button w-button">Применить</a><a href="#" class="clear-filter-link">Очистить</a></div>
+                </div>
+              </nav>
+            </div>
+            <div data-delay="0" class="filter-dd w-dropdown">
+              <div class="filter-dd-toggle w-dropdown-toggle">
+                <div data-w-id="9bb0b85f-c748-2ba6-4b40-390678d9f0a6" class="filter-dd-icon w-icon-dropdown-toggle"></div>
+                <div class="filter-dd-row">
+                  <div class="filter-dd-toggle-text">Инвестиции</div>
+                </div>
+              </div>
+              <nav class="filter-company-dd-list w-dropdown-list">
+                <div class="filter-dd-bg main-filter">
+                  <div class="filter-dd-heading">Потребность в инвестициях</div>
+                  <div class="filter-options">
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Не заинтересованы</div>
+                    </a>
+                    <div class="switch-div"><a href="#" class="switch-button active">Рубли</a><a href="#" class="switch-button right">Доллары</a></div>
+                    <div class="slider-div">
+                      <div class="slider-num">
+                        <div class="slider-num-text">0</div>
+                        <div class="slider-num-text">10+</div>
+                      </div>
+                      <div class="slider-line-frame">
+                        <div class="slider-color-line"><a href="#" class="slider-line-btn w-inline-block"></a><a href="#" class="slider-line-btn right w-inline-block"></a></div>
+                      </div>
+                      <div class="slider-totel-text">0,5 —  5 млн. ₽</div>
+                    </div>
+                  </div>
+                  <div class="filter-buttons-row"><a href="#" class="button w-button">Применить</a><a href="#" class="clear-filter-link">Очистить</a></div>
+                </div>
+              </nav>
             </div>
             <div data-delay="0" class="filter-dd w-dropdown">
               <div class="filter-dd-toggle w-dropdown-toggle">
                 <div class="filter-dd-icon w-icon-dropdown-toggle"></div>
                 <div class="filter-dd-row">
-                  <div class="filter-dd-toggle-text">Еще</div>
+                  <div class="filter-dd-toggle-text">Раунд</div>
                 </div>
               </div>
-              <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
+              <nav class="filter-company-dd-list w-dropdown-list">
+                <div class="filter-dd-bg main-filter">
+                  <div class="filter-dd-heading">Раунд инвестирования</div>
+                  <div class="filter-options">
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox checked"></div>
+                      <div class="checkbox-text">Ангельский раунд</div>
+                    </a>
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Seed раунд</div>
+                    </a>
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Seed</div>
+                    </a>
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Раунд A</div>
+                    </a>
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Раунд B</div>
+                    </a>
+                    <a href="#" class="checkbox-link w-inline-block">
+                      <div class="checkbox"></div>
+                      <div class="checkbox-text">Раунд C и позже</div>
+                    </a>
+                  </div>
+                  <div class="filter-buttons-row"><a href="#" class="button w-button">Применить</a><a href="#" class="clear-filter-link">Очистить</a></div>
+                </div>
+              </nav>
             </div>
           </div>
           <a href="#" class="filter-clear-button w-inline-block">
@@ -127,14 +252,16 @@
           <div class="number-of-companies-text">Всего 78 компаний</div>
         </div>
         <div class="companies-head-column _2">
-          <div data-delay="0" class="filter-company-list w-dropdown">
+          <div data-delay="0" data-w-id="52fca616-409d-e9e6-0bd0-bec70abd0c49" class="filter-company-list w-dropdown">
             <div class="filter-dd-toggle w-dropdown-toggle">
-              <div class="filter-dd-icon w-icon-dropdown-toggle"></div>
+              <div data-w-id="52fca616-409d-e9e6-0bd0-bec70abd0c4b" class="filter-dd-icon w-icon-dropdown-toggle"></div>
               <div class="filter-dd-row">
-                <div class="filter-dd-toggle-text">По релевантности</div>
+                <div class="filter-dd-toggle-text">По актуальности</div>
               </div>
             </div>
-            <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
+            <nav class="filter-company-dd-list w-dropdown-list">
+              <div class="filter-dd-bg"><a href="#" class="filter-company-link active w-dropdown-link">По актуальности</a><a href="#" class="filter-company-link w-dropdown-link">Раунд инвестирования (от раннего)</a><a href="#" class="filter-company-link w-dropdown-link">Раунд инвестирования (от позднего)</a><a href="#" class="filter-company-link w-dropdown-link">Стадия проекта (от начальной)</a><a href="#" class="filter-company-link w-dropdown-link">Стадия проекта (от финальной)</a></div>
+            </nav>
           </div>
           <div class="view-choice-block">
             <div class="view-choice-row"><a href="#" class="view-choice-icon active w-inline-block"></a><a href="#" class="view-choice-icon list-view w-inline-block"></a></div>
@@ -177,12 +304,23 @@
                   <div class="company-tag-icon-div"><img src="images/company-tag-icon-4.svg" class="company-tag-icon"></div>
                   <div class="company-tag-text">Блокчейн</div>
                 </div>
-                <div class="company-card-tag">
+                <div data-w-id="a921a020-ae75-e573-12cf-40539dfcffdb" class="company-card-tag">
                   <div class="company-card-tag-row">
                     <div class="company-tag-text">+ ещё 2</div>
                   </div>
-                  <div class="popup">
-                    <div class="popup-block"></div><img src="images/triangle.png" width="20"></div>
+                  <div data-w-id="2b584fd8-972f-f0cd-4756-08ac2059c241" style="display:none;opacity:0" class="popup">
+                    <div class="popup-block">
+                      <div class="company-card-tags-row-2">
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-3.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Искусственный интеллект</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-4.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Блокчейн</div>
+                        </div>
+                      </div>
+                    </div><img src="images/triangle.png" width="20" class="popup-triangle"></div>
                 </div>
               </div>
             </a><a href="#" data-w-id="1bd134a1-d98d-98e8-f5f2-6efe4c16d1d2" class="mark-link w-inline-block"></a></div>
@@ -196,7 +334,7 @@
                     <h3 class="company-card-heading">Студия великого и ужасного Артемия</h3>
                     <p class="company-card-description">Дизайн студия полного цикла. Студия №1 в России</p>
                   </div>
-                  <div class="company-card-logo"></div>
+                  <div class="company-card-logo"><img src="images/Bitmap-Copy-8.png" class="company-logo"></div>
                 </div>
                 <div class="company-card-tags-row _2">
                   <div class="company-card-tag-2">
@@ -215,8 +353,12 @@
               </div>
               <div class="company-card-tags-row">
                 <div class="company-card-tag">
-                  <div class="company-tag-icon-div"></div>
+                  <div class="company-tag-icon-div"><img src="images/company-tag-icon-3.svg" class="company-tag-icon"></div>
                   <div class="company-tag-text">Искусственный интеллект</div>
+                </div>
+                <div class="company-card-tag">
+                  <div class="company-tag-icon-div"><img src="images/company-tag-icon-4.svg" class="company-tag-icon"></div>
+                  <div class="company-tag-text">Блокчейн</div>
                 </div>
               </div>
             </a><a href="#" class="mark-link active w-inline-block"></a></div>
@@ -249,18 +391,66 @@
               </div>
               <div class="company-card-tags-row">
                 <div class="company-card-tag">
-                  <div class="company-tag-icon-div"></div>
+                  <div class="company-tag-icon-div"><img src="images/company-tag-icon-3.svg" class="company-tag-icon"></div>
                   <div class="company-tag-text">Искусственный интеллект</div>
                 </div>
                 <div class="company-card-tag">
-                  <div class="company-tag-icon-div"></div>
+                  <div class="company-tag-icon-div"><img src="images/company-tag-icon-4.svg" class="company-tag-icon"></div>
                   <div class="company-tag-text">Блокчейн</div>
                 </div>
-                <div class="company-card-tag">
+                <div data-w-id="d9838631-4add-ca3c-a1aa-2b67eaf8514a" class="company-card-tag">
                   <div class="company-card-tag-row">
-                    <div class="company-tag-icon-div"></div>
-                    <div class="company-tag-text">Ещё 2</div>
+                    <div class="company-tag-text">+ ещё 20</div>
                   </div>
+                  <div style="display:none;opacity:0" class="popup">
+                    <div class="popup-block wid-700">
+                      <div class="company-card-tags-row-2">
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-3.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Искусственный интеллект</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-4.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Блокчейн</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-5.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Аналитика и большие данные</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-3.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Потребительская электроника</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-6.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Коммуникация и медиа</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-7.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Одежда и мода</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-8.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Чистые технологи</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-9.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Дополненная реальность</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-10.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Биотехнологии</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-11.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Игры</div>
+                        </div>
+                        <div class="company-card-tag">
+                          <div class="company-tag-icon-div"><img src="images/company-tag-icon-12.svg" class="company-tag-icon"></div>
+                          <div class="company-tag-text">Кибербезопасность</div>
+                        </div>
+                      </div>
+                    </div><img src="images/triangle.png" width="20" class="popup-triangle"></div>
                 </div>
               </div>
             </a><a href="#" class="mark-link w-inline-block"></a></div>
@@ -274,7 +464,7 @@
                     <h3 class="company-card-heading">ТМС инжиниринг</h3>
                     <p class="company-card-description">Дизайн студия полного цикла. Студия №1 в России и в тоже время Автоматизация и стандартизация юридических процедур</p>
                   </div>
-                  <div class="company-card-logo"></div>
+                  <div class="company-card-logo"><img src="images/Bitmap-Copy-6.png" class="company-logo"></div>
                 </div>
                 <div class="company-card-tags-row _2">
                   <div class="company-card-tag-2">
@@ -293,18 +483,8 @@
               </div>
               <div class="company-card-tags-row">
                 <div class="company-card-tag">
-                  <div class="company-tag-icon-div"></div>
+                  <div class="company-tag-icon-div"><img src="images/company-tag-icon-3.svg" class="company-tag-icon"></div>
                   <div class="company-tag-text">Искусственный интеллект</div>
-                </div>
-                <div class="company-card-tag">
-                  <div class="company-tag-icon-div"></div>
-                  <div class="company-tag-text">Блокчейн</div>
-                </div>
-                <div class="company-card-tag">
-                  <div class="company-card-tag-row">
-                    <div class="company-tag-icon-div"></div>
-                    <div class="company-tag-text">Ещё 2</div>
-                  </div>
                 </div>
               </div>
             </a><a href="#" class="mark-link w-inline-block"></a></div>

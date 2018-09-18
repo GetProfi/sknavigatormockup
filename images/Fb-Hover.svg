@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Fb Hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.3606136,22 L9.11934065,22 L9.11934065,11.9987377 L7,11.9987377 L7,8.55263822 L9.11934065,8.55263822 L9.11934065,6.48371623 C9.11934065,3.67255743 10.3153978,2 13.7156728,2 L16.5457798,2 L16.5457798,5.44736178 L14.776963,5.44736178 C13.4532659,5.44736178 13.365797,5.92893209 13.365797,6.82769503 L13.3599657,8.55263822 L16.5652174,8.55263822 L16.1900727,11.9987377 L13.3599657,11.9987377 L13.3599657,22 L13.3606136,22 Z" id="path-1"></path>
+    </defs>
+    <g id="Fb-Hover" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#0C49CD" xlink:href="#path-1"></use>
+    </g>
+</svg>

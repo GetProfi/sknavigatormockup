@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Elements / Icons / S / Arrows / left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon>
+    </defs>
+    <g id="sk-v0.6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile_375-Filters-Inner-Active" transform="translate(-32.000000, -22.000000)">
+            <g id="Elements-/-Icons-/-S-/-Arrows-/-left" transform="translate(24.000000, 16.000000)">
+                <g id="left" transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) ">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="_Resources-/-ChangeColorsHere-/-Ink" mask="url(#mask-2)" fill="#3B4256">
+                        <rect id="↳-🎨Color" x="0" y="0" width="24" height="24" rx="4"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>CH</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+        <rect id="path-3" x="0" y="0" width="25" height="18" rx="1.8"></rect>
+    </defs>
+    <g id="sk-0.9-Icons,-Language,-Error" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CH" transform="translate(-1.000000, -1.000000)">
+            <rect id="Rectangle-3-Copy-2" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+            <g id="CN-Copy" transform="translate(2.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="#F1361D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke-opacity="0.65" stroke="#DDE1E6" stroke-width="1" cx="10" cy="10" r="10.5"></circle>
+                </g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(2.000000, 4.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" stroke="none" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect id="Mask" stroke="none" fill="#F1361D" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="0" width="25" height="18"></rect>
+                        <g id="Group-10" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-4)">
+                            <g transform="translate(2.000000, 1.000000)" id="Group-11">
+                                <g>
+                                    <path d="M10.0600533,4.3795555 L9.31126679,4.83748751 L9.32980606,3.95405896 L8.8720363,3.19825702 L9.74947048,3.2204445 L10.498257,2.76251249 L10.4797178,3.64594104 L10.9374875,4.40174298 L10.0600533,4.3795555 Z M7.85602493,1.93927643 L6.99047812,1.79363393 L7.58405116,1.13906479 L7.73441863,0.268329854 L8.38207031,0.860723572 L9.24761712,1.00636607 L8.65404408,1.66093521 L8.50367661,2.53167015 L7.85602493,1.93927643 Z M8.29447064,9.77378285 L7.56212183,10.2575682 L7.5498186,9.37403078 L7.0659506,8.63466519 L7.9436246,8.62621715 L8.6759734,8.14243182 L8.68827664,9.02596922 L9.17214464,9.76533481 L8.29447064,9.77378285 Z M9.800573,7.39088465 L8.92841149,7.48946113 L9.31856681,6.69663799 L9.22310222,5.81818695 L10.0089508,6.20911535 L10.8811123,6.11053887 L10.490957,6.90336201 L10.5864216,7.78181305 L9.800573,7.39088465 Z" id="Star-2" fill="#FFDC42"></path>
+                                    <polygon id="Star-8" fill="#FFDC42" points="3.95238095 6.40400006 1.85314791 7.91246118 2.62769504 5.43385988 0.555750537 3.88753882 3.13368003 3.86414009 3.95238095 1.4 4.77108187 3.86414009 7.34901137 3.88753882 5.27706687 5.43385988 6.051614 7.91246118"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

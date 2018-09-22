@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>EN</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+        <rect id="path-3" x="0" y="0" width="22" height="20" rx="1.6"></rect>
+    </defs>
+    <g id="sk-0.9-Icons,-Language,-Error" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EN" transform="translate(-1.000000, -1.000000)">
+            <rect id="Rectangle-3-Copy" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+            <g id="GB-Copy" transform="translate(2.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke-opacity="0.65" stroke="#DDE1E6" stroke-width="1" cx="10" cy="10" r="10.5"></circle>
+                </g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(-1.000000, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" stroke="none" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect id="Mask-Copy" stroke="none" fill="#0A17A7" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="0" width="22" height="20"></rect>
+                        <path d="M5.13899299,12.6666667 L4.4408921e-16,12.6666667 L4.4408921e-16,7.33333333 L5.13899299,7.33333333 L-2.18994794,2.38990026 L-0.997003077,0.62128677 L8.38095238,6.9467976 L8.38095238,-1.06666667 L13.6190476,-1.06666667 L13.6190476,6.9467976 L22.9970031,0.62128677 L24.1899479,2.38990026 L16.861007,7.33333333 L22,7.33333333 L22,12.6666667 L16.861007,12.6666667 L24.1899479,17.6100997 L22.9970031,19.3787132 L13.6190476,13.0532024 L13.6190476,20.0666667 L8.38095238,20.0666667 L8.38095238,13.0532024 L-0.997003077,19.3787132 L-2.18994794,17.6100997 L5.13899299,12.6666667 Z" id="Rectangle-2" stroke="none" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-4)"></path>
+                        <path d="M14.6676897,7.06575521 L24.6190476,0.4" id="Line" stroke="#DB1F35" stroke-width="0.533333333" fill="none" stroke-linecap="round" mask="url(#mask-4)"></path>
+                        <path d="M15.7243245,19.0802734 L24.6451997,12.9580078" id="Line-Copy-2" stroke="#DB1F35" stroke-width="0.533333333" fill="none" stroke-linecap="round" mask="url(#mask-4)" transform="translate(20.184762, 16.019141) scale(1, -1) translate(-20.184762, -16.019141) "></path>
+                        <path d="M6.29006231,7.0483724 L-3.01516578,0.663216146" id="Line-Copy" stroke="#DB1F35" stroke-width="0.533333333" fill="none" stroke-linecap="round" mask="url(#mask-4)"></path>
+                        <path d="M7.29931641,19.8483724 L-3.01516578,12.8839193" id="Line-Copy-3" stroke="#DB1F35" stroke-width="0.533333333" fill="none" stroke-linecap="round" mask="url(#mask-4)" transform="translate(2.142075, 16.366146) scale(1, -1) translate(-2.142075, -16.366146) "></path>
+                        <polygon id="Rectangle-2-Copy-3" stroke="none" fill="#E6273E" fill-rule="evenodd" mask="url(#mask-4)" points="0 11.6 9.42857143 11.6 9.42857143 20 12.5714286 20 12.5714286 11.6 22 11.6 22 8.4 12.5714286 8.4 12.5714286 0 9.42857143 0 9.42857143 8.4 0 8.4"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

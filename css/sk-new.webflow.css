@@ -72,6 +72,10 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -90,21 +94,37 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .menu-burger-button {
-  margin-right: 32px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .logo-link {
-  margin-right: 33px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .header-menu-link {
   display: inline-block;
-  margin-right: 32px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-weight: 500;
 }
 
@@ -114,7 +134,10 @@ a:hover {
 
 .header-link {
   display: inline-block;
-  margin-left: 33px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   color: #848e99;
   font-size: 14px;
   line-height: 20px;
@@ -137,6 +160,13 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.header-link-text {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .main-section {
@@ -270,7 +300,13 @@ a:hover {
 }
 
 .filter-dd-icon {
+  position: absolute;
+  right: 0px;
   margin-right: 10px;
+}
+
+.filter-dd-icon.lang {
+  margin-right: -6px;
 }
 
 .filter-dd {
@@ -768,10 +804,391 @@ a:hover {
 }
 
 .company-tag-icon {
+  width: 18px;
+  height: 18px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  background-image: url('../images/AI.svg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.company-tag-icon._2 {
+  background-image: url('../images/Clear-Tehno.svg');
+}
+
+.company-tag-icon._2.active {
+  background-image: url('../images/Clear-Tehno-White.svg');
+}
+
+.company-tag-icon._3 {
+  background-image: url('../images/Analytics.svg');
+}
+
+.company-tag-icon._3.active {
+  background-image: url('../images/Analytics-White.svg');
+}
+
+.company-tag-icon._4 {
+  background-image: url('../images/AR.svg');
+}
+
+.company-tag-icon._4.active {
+  background-image: url('../images/AR-White.svg');
+}
+
+.company-tag-icon._5 {
+  background-image: url('../images/Ctypto.svg');
+}
+
+.company-tag-icon._5.active {
+  background-image: url('../images/Ctypto-White.svg');
+}
+
+.company-tag-icon._6 {
+  background-image: url('../images/Games.svg');
+}
+
+.company-tag-icon._6.active {
+  background-image: url('../images/Games-White.svg');
+}
+
+.company-tag-icon._7 {
+  background-image: url('../images/Communications.svg');
+}
+
+.company-tag-icon._7.active {
+  background-image: url('../images/Communications-White.svg');
+}
+
+.company-tag-icon._8 {
+  background-image: url('../images/Biotechno.svg');
+}
+
+.company-tag-icon._8.active {
+  background-image: url('../images/Biotechno-White.svg');
+}
+
+.company-tag-icon._9 {
+  background-image: url('../images/Cybersecurity.svg');
+}
+
+.company-tag-icon._9.active {
+  background-image: url('../images/Cybersecurity-White.svg');
+}
+
+.company-tag-icon._10 {
+  background-image: url('../images/Electronics.svg');
+}
+
+.company-tag-icon._10.active {
+  background-image: url('../images/Electronics-White.svg');
+}
+
+.company-tag-icon._11 {
+  background-image: url('../images/Blockchain.svg');
+}
+
+.company-tag-icon._11.active {
+  background-image: url('../images/Blockchain-White.svg');
+}
+
+.company-tag-icon._12 {
+  background-image: url('../images/Ecommerce.svg');
+}
+
+.company-tag-icon._12.active {
+  background-image: url('../images/Ecommerce-White.svg');
+}
+
+.company-tag-icon._13 {
+  background-image: url('../images/Clothes.svg');
+}
+
+.company-tag-icon._13.active {
+  background-image: url('../images/Clothes-White.svg');
+}
+
+.company-tag-icon.active {
+  background-image: url('../images/AI-White.svg');
+}
+
+.company-tag-icon._14 {
+  background-image: url('../images/Education.svg');
+}
+
+.company-tag-icon._14.active {
+  background-image: url('../images/Education-White.svg');
+}
+
+.company-tag-icon._15 {
+  background-image: url('../images/Energetics.svg');
+}
+
+.company-tag-icon._15.active {
+  background-image: url('../images/Energetics-White.svg');
+}
+
+.company-tag-icon._16 {
+  background-image: url('../images/Oil-Chemestry.svg');
+}
+
+.company-tag-icon._16.active {
+  background-image: url('../images/Oil-Chemestry-White.svg');
+}
+
+.company-tag-icon._17 {
+  background-image: url('../images/Industrial-programm.svg');
+}
+
+.company-tag-icon._17.active {
+  background-image: url('../images/Industrial-programm-White.svg');
+}
+
+.company-tag-icon._18 {
+  background-image: url('../images/Finance-insuarence.svg');
+}
+
+.company-tag-icon._18.active {
+  background-image: url('../images/Finance-insuarence-White.svg');
+}
+
+.company-tag-icon._19 {
+  background-image: url('../images/Food.svg');
+}
+
+.company-tag-icon._19.active {
+  background-image: url('../images/Food-White.svg');
+}
+
+.company-tag-icon._20 {
+  background-image: url('../images/Health.svg');
+}
+
+.company-tag-icon._20.active {
+  background-image: url('../images/Health-White.svg');
+}
+
+.company-tag-icon._21 {
+  background-image: url('../images/Internet-of-things.svg');
+}
+
+.company-tag-icon._21.active {
+  background-image: url('../images/Internet-of-things-White.svg');
+}
+
+.company-tag-icon._22 {
+  background-image: url('../images/Materials.svg');
+}
+
+.company-tag-icon._22.active {
+  background-image: url('../images/Materials-White.svg');
+}
+
+.company-tag-icon._23 {
+  background-image: url('../images/Pharma.svg');
+}
+
+.company-tag-icon._23.active {
+  background-image: url('../images/Pharma-White.svg');
+}
+
+.company-tag-icon._24 {
+  background-image: url('../images/Mobile-techno.svg');
+}
+
+.company-tag-icon._24.active {
+  background-image: url('../images/Mobile-techno-White.svg');
+}
+
+.company-tag-icon._25 {
+  background-image: url('../images/Music.svg');
+}
+
+.company-tag-icon._25.active {
+  background-image: url('../images/Music-White.svg');
+}
+
+.company-tag-icon._26 {
+  background-image: url('../images/Mail-service.svg');
+}
+
+.company-tag-icon._26.active {
+  background-image: url('../images/Mail-service-White.svg');
+}
+
+.company-tag-icon._27 {
+  background-image: url('../images/Video-creation.svg');
+}
+
+.company-tag-icon._27.active {
+  background-image: url('../images/Video-creation-White.svg');
+}
+
+.company-tag-icon._28 {
+  background-image: url('../images/Escort.svg');
+}
+
+.company-tag-icon._28.active {
+  background-image: url('../images/Escort-White.svg');
+}
+
+.company-tag-icon._29 {
+  background-image: url('../images/Services.svg');
+}
+
+.company-tag-icon._29.active {
+  background-image: url('../images/Services-White.svg');
+}
+
+.company-tag-icon._30 {
+  background-image: url('../images/Drone.svg');
+}
+
+.company-tag-icon._30.active {
+  background-image: url('../images/Drone-White.svg');
+}
+
+.company-tag-icon._31 {
+  background-image: url('../images/Messangers.svg');
+}
+
+.company-tag-icon._31.active {
+  background-image: url('../images/Messangers-White.svg');
+}
+
+.company-tag-icon._32 {
+  background-image: url('../images/Cosmic.svg');
+}
+
+.company-tag-icon._32.active {
+  background-image: url('../images/Cosmic-White.svg');
+}
+
+.company-tag-icon._33 {
+  background-image: url('../images/Sport.svg');
+}
+
+.company-tag-icon._33.active {
+  background-image: url('../images/Sport-White.svg');
+}
+
+.company-tag-icon._34 {
+  background-image: url('../images/Transport.svg');
+}
+
+.company-tag-icon._34.active {
+  background-image: url('../images/Transport-White.svg');
+}
+
+.company-tag-icon._35 {
+  background-image: url('../images/Rest.svg');
+}
+
+.company-tag-icon._35.active {
+  background-image: url('../images/Rest-White.svg');
+}
+
+.company-tag-icon._36 {
+  background-image: url('../images/Virtual-reality.svg');
+}
+
+.company-tag-icon._36.active {
+  background-image: url('../images/Virtual-reality-White.svg');
+}
+
+.company-tag-icon._37 {
+  background-image: url('../images/Wearing-devices.svg');
+}
+
+.company-tag-icon._37.active {
+  background-image: url('../images/Wearing-devices-White.svg');
+}
+
+.company-tag-icon._38 {
+  background-image: url('../images/Money.svg');
+}
+
+.company-tag-icon._38.active {
+  background-image: url('../images/Money-White.svg');
+}
+
+.company-tag-icon._39 {
+  background-image: url('../images/Law.svg');
+}
+
+.company-tag-icon._39.active {
+  background-image: url('../images/Law-White.svg');
+}
+
+.company-tag-icon._40 {
+  background-image: url('../images/Marketing.svg');
+}
+
+.company-tag-icon._40.active {
+  background-image: url('../images/Marketing-White.svg');
+}
+
+.company-tag-icon._41 {
+  background-image: url('../images/Visa.svg');
+}
+
+.company-tag-icon._41.active {
+  background-image: url('../images/Visa-White.svg');
+}
+
+.company-tag-icon._42 {
+  background-image: url('../images/HR.svg');
+}
+
+.company-tag-icon._42.active {
+  background-image: url('../images/HR-White.svg');
+}
+
+.company-tag-icon._43 {
+  background-image: url('../images/Brain.svg');
+}
+
+.company-tag-icon._43.active {
+  background-image: url('../images/Brain-White.svg');
+}
+
+.company-tag-icon._44 {
+  background-image: url('../images/Customs.svg');
+}
+
+.company-tag-icon._44.active {
+  background-image: url('../images/Customs-White.svg');
+}
+
+.company-tag-icon._45 {
+  background-image: url('../images/License.svg');
+}
+
+.company-tag-icon._45.active {
+  background-image: url('../images/License-White.svg');
+}
+
+.company-tag-icon._46 {
+  background-image: url('../images/Sertification.svg');
+}
+
+.company-tag-icon._46.active {
+  background-image: url('../images/Sertification-White.svg');
+}
+
+.company-tag-icon._47 {
+  background-image: url('../images/Social-business.svg');
+}
+
+.company-tag-icon._47.active {
+  background-image: url('../images/Social-business-White.svg');
+}
+
+.company-tag-icon.no-bg-img {
+  background-image: none;
 }
 
 .popup {
@@ -835,6 +1252,11 @@ a:hover {
   transform: none;
 }
 
+.filter-company-dd-list.lang.w--open {
+  width: 215px;
+  padding-top: 23px;
+}
+
 .filter-dd-bg {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -855,7 +1277,13 @@ a:hover {
   max-width: 90vw;
 }
 
+.filter-dd-bg.lang {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .filter-company-link {
+  display: block;
   padding: 8px 48px;
 }
 
@@ -945,10 +1373,15 @@ a:hover {
   border-radius: 4px;
   background-color: #0c49cd;
   color: #f4f7fb;
+  text-align: center;
 }
 
 .button:hover {
   color: #fff;
+}
+
+.button.access {
+  min-width: 112px;
 }
 
 .clear-filter-link {
@@ -1095,6 +1528,10 @@ a:hover {
 .elements-text {
   margin-top: 50px;
   margin-bottom: 10px;
+  color: #0c49cd;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
 }
 
 .search-tech-tag {
@@ -1146,6 +1583,7 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   margin-right: -96px;
+  margin-bottom: -50px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -1350,6 +1788,7 @@ a:hover {
 }
 
 .more-link {
+  margin-left: 6px;
   color: #0c49cd;
 }
 
@@ -1689,7 +2128,7 @@ a:hover {
 }
 
 .company-soc-link.twitter {
-  background-image: url('../images/Twitter.svg');
+  background-image: url('../images/Twi.svg');
 }
 
 .company-soc-link.twitter:hover {
@@ -1697,7 +2136,7 @@ a:hover {
 }
 
 .company-soc-link.ok {
-  background-image: url('../images/Odnoklass.svg');
+  background-image: url('../images/OK.svg');
 }
 
 .company-soc-link.ok:hover {
@@ -2275,6 +2714,145 @@ a:hover {
   float: right;
 }
 
+.language-dd {
+  z-index: 10;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.language-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 100px;
+  background-image: url('../images/RU.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.language-icon.active {
+  background-image: url('../images/atom_white.svg');
+}
+
+.language-icon.en {
+  background-image: url('../images/EN.svg');
+}
+
+.language-icon.ch {
+  background-image: url('../images/CH.svg');
+}
+
+.language-dd-toggle {
+  padding: 0px 20px 0px 0px;
+  color: #848e99;
+}
+
+.language-dd-toggle.active {
+  background-color: #0c49cd;
+  color: #fff;
+}
+
+.language-dd-toggle.year {
+  min-width: 86px;
+  box-shadow: inset 0 0 0 1px #dde1e6;
+}
+
+.language-dd-toggle.year:hover {
+  box-shadow: none;
+}
+
+.access-lb {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 5000;
+  display: block;
+  overflow: auto;
+}
+
+.lb-access-block {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 571px;
+  max-width: 96%;
+  padding: 34px 46px 32px 48px;
+  border-radius: 6px;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.header-menu-space {
+  width: 32px;
+  height: 10px;
+}
+
+.lb-access-heading {
+  margin-bottom: 13px;
+  font-family: 'Sf ui display', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 900;
+}
+
+.lb-access-text {
+  margin-bottom: 22px;
+}
+
+.registration-btn {
+  display: inline-block;
+  margin-left: 24px;
+  color: #848e99;
+}
+
+.registration-btn.button {
+  margin-left: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color: transparent;
+  color: #0c49cd;
+}
+
+.registration-btn.button:hover {
+  background-color: #f4f7fb;
+  color: #0c49cd;
+}
+
+.close-lb {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 44px;
+  height: 44px;
+  background-image: url('../images/cross.svg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.company-text-block {
+  display: inline;
+}
+
+.company-text-block.full {
+  display: block;
+}
+
+.head-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media (max-width: 991px) {
   .navbar {
     padding-top: 12px;
@@ -2594,14 +3172,25 @@ a:hover {
   }
   .filter-lb-head {
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 16px 96px 16px 24px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     border-bottom: 1px solid #e9ebef;
     background-color: #fff;
   }
   .filter-lb-back-button {
     display: block;
-    padding: 16px 96px;
+    width: 24px;
+    height: 24px;
+    margin-right: 48px;
     background-image: url('../images/left.svg');
-    background-position: 32px 50%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     font-size: 18px;
     line-height: 24px;
@@ -2611,7 +3200,7 @@ a:hover {
   .mob-filter-clear {
     position: absolute;
     top: 50%;
-    right: 23px;
+    right: 24px;
     z-index: 1;
     -webkit-transform: translate(0px, -50%);
     -ms-transform: translate(0px, -50%);
@@ -2729,6 +3318,15 @@ a:hover {
   }
   .active-mob-filters {
     padding-bottom: 10px;
+  }
+  .mob-filter-back-btn-text {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
   }
   .mob-filters-button {
     display: block;
@@ -2884,6 +3482,23 @@ a:hover {
     margin-right: 0px;
     margin-left: 16px;
   }
+  .language-dd-toggle-text {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .language-dd-toggle {
+    display: block;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .lb-access-block {
+    top: 24px;
+    -webkit-transform: translate(-50%, 0px);
+    -ms-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
+  }
 }
 
 @media (max-width: 479px) {
@@ -2916,6 +3531,9 @@ a:hover {
   .filter-company-list {
     margin-top: 8px;
     margin-bottom: 8px;
+  }
+  .button.access {
+    min-width: 100px;
   }
   .filter-year-list {
     margin-top: 8px;
@@ -3058,6 +3676,18 @@ a:hover {
   }
   .company-compact-col {
     margin-right: 0px;
+  }
+  .language-dd {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .lb-access-block {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .close-lb {
+    width: 32px;
+    height: 32px;
   }
 }
 
